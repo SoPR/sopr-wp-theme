@@ -1,0 +1,239 @@
+/*
+
+Theme Name: Startups of Puerto Rico
+Theme URI: http://startupsofpuertorico.com
+Description: Theme for the official website of <strong>Startups of Puerto Rico</strong> Based on <strong>Just Add Markup</strong> (JAM) theme using the Carrington CMS theme framework.
+Version: 1.4
+Author: Giovanni Collazo
+Author URI: http://giovannicollazo.com
+Tags: customizable, template, framework, carrington, cms, example
+
+// This file is part of the Carrington JAM Theme for WordPress
+// http://carringtontheme.com
+//
+// Copyright (c) 2008-2009 Crowd Favorite, Ltd. All rights reserved.
+// http://crowdfavorite.com
+//
+// Released under the GPL license
+// http://www.opensource.org/licenses/gpl-license.php
+//
+// **********************************************************************
+// This program is distributed in the hope that it will be useful, but
+// WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+// **********************************************************************
+
+NOTE: This file is not used in this theme but is included for WordPress theme expected format compatibility - it's standard to use the css/ dir for actual theme CSS in a Carrington-based theme.
+
+*/
+
+/* including for compatibility */
+
+.alignleft {
+	float:left;
+	margin-right:1em;
+	margin-bottom:1em;
+}
+.alignright {
+	float:right;
+	margin-left:1em;
+	margin-bottom:1em;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	/* optional rounded corners for browsers that support it */
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+/* SOPR Style Starts Here */
+
+body {
+	font: 100% Helvetica, Arial, sans-serif;
+	color:#3f3f3f;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+#sidebar {
+	float:left;
+	height:100%;
+	width:170px;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	padding:10px 10px 0 25px;
+}
+
+.widget {
+	width:200px;
+	clear:left;
+}
+
+.widget_nav_menu {
+	position:relative;
+	left:5px;
+	margin-bottom:200px;
+}
+
+.widget_text {
+	font-size:12px;
+	width:180px;
+	color:#bfbfbf;
+}
+
+.content {
+	width:500px;
+	margin:0 0 0 220px;
+}
+
+.content h2 {
+	padding:0px;
+	margin:60px 0 20px 0;
+	color:#bfbfbf;
+}
+
+.main-title h1 {
+	display:block;
+	padding:0px;
+}
+
+.main-title h1 a {
+	text-decoration:none;
+	border:0px;
+}
+
+ul.menu {
+	list-style-type: none;
+	text-align:right;
+	clear:both;
+	float:left;
+}
+
+ul.menu li { margin-bottom:5px;}
+
+ul.menu li a {
+	font-weight:bold;
+	background-color:black;
+	color:white;
+	text-decoration:none;
+	font-size:12px;
+	padding:2px 5px;
+}
+
+ul.menu li a:hover {
+	background-color:#3f3f3f;
+}
+
+ul.menu li.current-menu-item a {
+	background-color:#8fd000;
+}
+
+.posts {
+	margin:0 0 35px 220px;
+	width:500px;
+}
+
+.posts img.feed-favicon {
+	width:16px;
+	height:16px;
+}
+
+.posts span.feed-url a {
+	font-size:10px;
+	color:#bfbfbf;
+	position:relative;
+	top:-4px;
+	margin-left:5px;
+	text-decoration:none;
+}
+
+.posts a.feed-title {
+	display:block;
+	color:#000000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.posts div.feed-excerpt {
+	margin:7px 0;
+}
+
+.pagination {
+	display:none;
+}
+
+
+.company {
+	width:300px;
+	clear:both;
+	float:left;
+	padding:10px;
+	overflow:hidden;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.company .meta {
+	font-size:12px;
+	color:#bfbfbf;
+}
+
+.company .meta a {
+	color:#bfbfbf;
+	text-decoration:none;
+}
+
+.company h3 a{
+	color:black;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
